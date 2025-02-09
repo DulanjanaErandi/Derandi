@@ -8,4 +8,12 @@ Task 3: Create the Hupu System User Command:sudo useradd --system --shell /bin/f
 
 Task 4: Add Users to the Sudo Group Command:sudo usermod -aG sudo tupu sudo usermod -aG sudo lupu Explanation: Added tupu and lupu to the sudo group to grant them sudo privileges.
 
-Task 5: Create /opt/projekti and Set Permissions Step I:Create the Common Group Command:sudo groupadd projekti Step II:Add Both Users to the Group Command:sudo usermod -aG projekti tupu sudo usermod -aG projekti lupu Step III:Create the /opt/projekti Directory Command:sudo mkdir -p /opt/projekti Step IV:Set Group Ownership Command:sudo chown :projekti /opt/projekti Step V:Set Permissions Command:sudo chmod 2770 /opt/projekti Step VI:Verify Command:ls -ld /opt/projekti
+
+
+Screenshots
+![Image Description](Images/1.png)
+![Image Description](Images/2.png)
+![Image Description](Images/3.png)
+![Image Description](Images/4.1.png)
+![Image Description](Images/4.2.png)
+![Image Description](Images/5.png)
